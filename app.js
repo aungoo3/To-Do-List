@@ -45,16 +45,3 @@ btnToggle.addEventListener('click', () => {
   }
 });
 
-//Remove the Last Item from the lists
-const btnRemove = document.querySelector('.btn-remove');
-btnRemove.addEventListener('click', () => {
-  const lastItem = document.querySelector('li:last-child');
-  lastItem.remove();                 
-});
-
-
-
-
-
-
-
