@@ -27,7 +27,7 @@ btnCreate.addEventListener('click', () => {
   let li = document.createElement('li');
   li.textContent = input.value;
   attachRemoveButton(li);
-  ul.appendChild(li);
+  ul.prepend(li);
   input.value = '';
 });
 
