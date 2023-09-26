@@ -31,7 +31,6 @@ btnCreate.addEventListener('click', () => {
   input.value = '';
 });
 
-
 //Hide & Show all the lists 
 const btnToggle = document.querySelector('.btn-toggle');
 btnToggle.addEventListener('click', () => {                          
